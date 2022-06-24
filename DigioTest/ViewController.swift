@@ -1,0 +1,18 @@
+//
+//  ViewController.swift
+//  DigioTest
+//
+//  Created by Douglas Schiavi on 24/06/22.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+    
+}
+
