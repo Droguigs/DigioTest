@@ -9,12 +9,12 @@ struct ProductList: Decodable {
     
     let spotlights: [SpotLight]?
     let products: [Product]?
-    let cashes: [Cash]?
+    let cash: Cash?
     
     enum CodingKeys: String, CodingKey {
         case spotlights = "spotlight"
-        case products = "product"
-        case cashes = "cash"
+        case products
+        case cash
     }
     
     init(from decoder: Decoder) throws {
@@ -22,6 +22,12 @@ struct ProductList: Decodable {
         
         spotlights = try? values.decode([SpotLight].self, forKey: .spotlights)
         products = try? values.decode([Product].self, forKey: .products)
-        cashes = try? values.decode([Cash].self, forKey: .cashes)
+        cash = try? values.decode(Cash.self, forKey: .cash)
+    }
+    
+    init() {
+        spotlights = nil
+        products = nil
+        cash = nil
     }
 }

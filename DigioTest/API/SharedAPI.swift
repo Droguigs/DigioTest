@@ -9,21 +9,24 @@ import Foundation
 
 class SharedAPI {
     
-    let defaultSession = URLSession(configuration: .default)
     let url = URL(string: "https://7hgi9vtkdc.execute-api.sa-east-1.amazonaws.com/sandbox/products")
-    
+    let defaultSession = URLSession(configuration: .default)
     var dataTask: URLSessionDataTask?
-    var errorMessage = ""
     
     typealias ParseResponse<T> = (Result<T?, Error>) -> Void
     
     func getProducts(completion: @escaping ParseResponse<ProductList>) {
+        dataTask?.cancel()
         
         guard let url = url else { return }
         
-        URLSession.shared.dataTask(with: url) { [weak self] data, response, error in
+        dataTask = defaultSession.dataTask(with: url) { [weak self] data, response, error in
+            defer {
+                self?.dataTask = nil
+            }
+            
             if let error = error {
-                self?.errorMessage += "DataTask error: " + error.localizedDescription + "\n"
+                completion(.failure(error))
             } else if
                 let data = data,
                 let response = response as? HTTPURLResponse,
@@ -40,5 +43,6 @@ class SharedAPI {
                 
             }
         }
+        dataTask?.resume()
     }
 }

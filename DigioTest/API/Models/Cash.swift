@@ -11,7 +11,7 @@ struct Cash: Decodable  {
     let description: String?
     
     enum CodingKeys: String, CodingKey {
-        case name
+        case title
         case bannerURL
         case description
     }
@@ -19,7 +19,7 @@ struct Cash: Decodable  {
     init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         
-        title = try? values.decode(String.self, forKey: .name)
+        title = try? values.decode(String.self, forKey: .title)
         bannerURL = try? values.decode(String.self, forKey: .bannerURL)
         description = try? values.decode(String.self, forKey: .description)
     }
