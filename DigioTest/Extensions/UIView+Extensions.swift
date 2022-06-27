@@ -7,53 +7,25 @@
 
 import UIKit
 
-@IBDesignable extension UIView {
-    @IBInspectable var cornerRadius: CGFloat {
-        get {
-            return layer.cornerRadius
-        }
-        set {
-              layer.cornerRadius = newValue
-              layer.masksToBounds = (newValue > 0)
-        }
+extension UIView {
+    func setCornerRadius(radius newValue: CGFloat) {
+          layer.cornerRadius = newValue
+          layer.masksToBounds = (newValue > 0)
     }
     
-    @IBInspectable var shadowRadius: CGFloat {
-        get {
-            return layer.shadowRadius
-        }
-        set {
-            layer.shadowRadius = newValue
-        }
+    func setShadowRadius(radius newValue: CGFloat) {
+        layer.shadowRadius = newValue
     }
-
-    @IBInspectable var shadowOpacity: CGFloat {
-        get {
-            return CGFloat(layer.shadowOpacity)
-        }
-        set {
-            layer.shadowOpacity = Float(newValue)
-        }
+    
+    func setShadowOpacity(opacity newValue: CGFloat) {
+        layer.shadowOpacity = Float(newValue)
     }
-
-    @IBInspectable var shadowOffset: CGSize {
-        get {
-            return layer.shadowOffset
-        }
-        set {
-            layer.shadowOffset = newValue
-        }
+    
+    func setShadowOffset(offset newValue: CGSize) {
+        layer.shadowOffset = newValue
     }
-
-    @IBInspectable var shadowColor: UIColor? {
-        get {
-            guard let cgColor = layer.shadowColor else {
-                return nil
-            }
-            return UIColor(cgColor: cgColor)
-        }
-        set {
-            layer.shadowColor = newValue?.cgColor
-        }
+    
+    func setShadowColor(color newValue: UIColor?) {
+        layer.shadowColor = newValue?.cgColor
     }
 }

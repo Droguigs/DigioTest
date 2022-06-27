@@ -8,15 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B6DDD11A2865D7F300DADB71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD1192865D7F300DADB71 /* AppDelegate.swift */; };
-		B6DDD11E2865D7F300DADB71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD11D2865D7F300DADB71 /* ViewController.swift */; };
-		B6DDD1212865D7F300DADB71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DDD11F2865D7F300DADB71 /* Main.storyboard */; };
 		B6DDD1232865D7F900DADB71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6DDD1222865D7F900DADB71 /* Assets.xcassets */; };
 		B6DDD1262865D7F900DADB71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DDD1242865D7F900DADB71 /* LaunchScreen.storyboard */; };
-		B6DDD1312865D7F900DADB71 /* DigioTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD1302865D7F900DADB71 /* DigioTestTests.swift */; };
-		B6DDD13B2865D7F900DADB71 /* DigioTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD13A2865D7F900DADB71 /* DigioTestUITests.swift */; };
-		B6DDD13D2865D7F900DADB71 /* DigioTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD13C2865D7F900DADB71 /* DigioTestUITestsLaunchTests.swift */; };
-		B6DDD14D2865EFBE00DADB71 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD14B2865EFBE00DADB71 /* CollectionTableViewCell.swift */; };
-		B6DDD14E2865EFBE00DADB71 /* CollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6DDD14C2865EFBE00DADB71 /* CollectionTableViewCell.xib */; };
 		B6DDD156286603A600DADB71 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD155286603A600DADB71 /* UIView+Extensions.swift */; };
 		B6DDD1592866694C00DADB71 /* SharedAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD1582866694C00DADB71 /* SharedAPI.swift */; };
 		B6DDD161286673C300DADB71 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B6DDD160286673C300DADB71 /* README.md */; };
@@ -25,6 +18,11 @@
 		B6DDD1692866957600DADB71 /* Cash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD1682866957600DADB71 /* Cash.swift */; };
 		B6DDD16B286695A100DADB71 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD16A286695A100DADB71 /* Product.swift */; };
 		B6DDD16D286695B800DADB71 /* Spotlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD16C286695B800DADB71 /* Spotlight.swift */; };
+		B6DDD1762868F6C900DADB71 /* ReusableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD1752868F6C900DADB71 /* ReusableView+Extension.swift */; };
+		B6DDD1802869355800DADB71 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD17F2869355800DADB71 /* BaseViewController.swift */; };
+		B6DDD18A28693EEF00DADB71 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD18928693EEF00DADB71 /* TableViewCell.swift */; };
+		B6DDD18C28693F1800DADB71 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD18B28693F1800DADB71 /* CollectionViewCell.swift */; };
+		B6DDD18E28697ACD00DADB71 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD18D28697ACD00DADB71 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,18 +45,11 @@
 /* Begin PBXFileReference section */
 		B6DDD1162865D7F300DADB71 /* DigioTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigioTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DDD1192865D7F300DADB71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6DDD11D2865D7F300DADB71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B6DDD1202865D7F300DADB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6DDD1222865D7F900DADB71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6DDD1252865D7F900DADB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6DDD1272865D7F900DADB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6DDD12C2865D7F900DADB71 /* DigioTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigioTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6DDD1302865D7F900DADB71 /* DigioTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioTestTests.swift; sourceTree = "<group>"; };
 		B6DDD1362865D7F900DADB71 /* DigioTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigioTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6DDD13A2865D7F900DADB71 /* DigioTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioTestUITests.swift; sourceTree = "<group>"; };
-		B6DDD13C2865D7F900DADB71 /* DigioTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B6DDD14B2865EFBE00DADB71 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
-		B6DDD14C2865EFBE00DADB71 /* CollectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionTableViewCell.xib; sourceTree = "<group>"; };
 		B6DDD155286603A600DADB71 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		B6DDD1582866694C00DADB71 /* SharedAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedAPI.swift; sourceTree = "<group>"; };
 		B6DDD160286673C300DADB71 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -67,6 +58,11 @@
 		B6DDD1682866957600DADB71 /* Cash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cash.swift; sourceTree = "<group>"; };
 		B6DDD16A286695A100DADB71 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		B6DDD16C286695B800DADB71 /* Spotlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotlight.swift; sourceTree = "<group>"; };
+		B6DDD1752868F6C900DADB71 /* ReusableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReusableView+Extension.swift"; sourceTree = "<group>"; };
+		B6DDD17F2869355800DADB71 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B6DDD18928693EEF00DADB71 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B6DDD18B28693F1800DADB71 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B6DDD18D28697ACD00DADB71 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				B6DDD1182865D7F300DADB71 /* DigioTest */,
-				B6DDD12F2865D7F900DADB71 /* DigioTestTests */,
-				B6DDD1392865D7F900DADB71 /* DigioTestUITests */,
 				B6DDD1172865D7F300DADB71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,12 +111,11 @@
 		B6DDD1182865D7F300DADB71 /* DigioTest */ = {
 			isa = PBXGroup;
 			children = (
+				B6DDD18F28697AD200DADB71 /* Views */,
 				B6DDD1572866692A00DADB71 /* API */,
 				B6DDD1542866033500DADB71 /* Extensions */,
 				B6DDD1492865EF0D00DADB71 /* Cells */,
 				B6DDD1192865D7F300DADB71 /* AppDelegate.swift */,
-				B6DDD11D2865D7F300DADB71 /* ViewController.swift */,
-				B6DDD11F2865D7F300DADB71 /* Main.storyboard */,
 				B6DDD1222865D7F900DADB71 /* Assets.xcassets */,
 				B6DDD1242865D7F900DADB71 /* LaunchScreen.storyboard */,
 				B6DDD1272865D7F900DADB71 /* Info.plist */,
@@ -131,28 +124,11 @@
 			path = DigioTest;
 			sourceTree = "<group>";
 		};
-		B6DDD12F2865D7F900DADB71 /* DigioTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				B6DDD1302865D7F900DADB71 /* DigioTestTests.swift */,
-			);
-			path = DigioTestTests;
-			sourceTree = "<group>";
-		};
-		B6DDD1392865D7F900DADB71 /* DigioTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B6DDD13A2865D7F900DADB71 /* DigioTestUITests.swift */,
-				B6DDD13C2865D7F900DADB71 /* DigioTestUITestsLaunchTests.swift */,
-			);
-			path = DigioTestUITests;
-			sourceTree = "<group>";
-		};
 		B6DDD1492865EF0D00DADB71 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				B6DDD14B2865EFBE00DADB71 /* CollectionTableViewCell.swift */,
-				B6DDD14C2865EFBE00DADB71 /* CollectionTableViewCell.xib */,
+				B6DDD18928693EEF00DADB71 /* TableViewCell.swift */,
+				B6DDD18B28693F1800DADB71 /* CollectionViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -162,6 +138,7 @@
 			children = (
 				B6DDD155286603A600DADB71 /* UIView+Extensions.swift */,
 				B6DDD166286688AC00DADB71 /* Encodable+Decodable.swift */,
+				B6DDD1752868F6C900DADB71 /* ReusableView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -184,6 +161,15 @@
 				B6DDD16C286695B800DADB71 /* Spotlight.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B6DDD18F28697AD200DADB71 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6DDD17F2869355800DADB71 /* BaseViewController.swift */,
+				B6DDD18D28697ACD00DADB71 /* DetailsViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,8 +279,6 @@
 				B6DDD161286673C300DADB71 /* README.md in Resources */,
 				B6DDD1262865D7F900DADB71 /* LaunchScreen.storyboard in Resources */,
 				B6DDD1232865D7F900DADB71 /* Assets.xcassets in Resources */,
-				B6DDD1212865D7F300DADB71 /* Main.storyboard in Resources */,
-				B6DDD14E2865EFBE00DADB71 /* CollectionTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,15 +304,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6DDD1592866694C00DADB71 /* SharedAPI.swift in Sources */,
+				B6DDD1762868F6C900DADB71 /* ReusableView+Extension.swift in Sources */,
+				B6DDD18C28693F1800DADB71 /* CollectionViewCell.swift in Sources */,
 				B6DDD1692866957600DADB71 /* Cash.swift in Sources */,
 				B6DDD16528667DED00DADB71 /* ProductList.swift in Sources */,
 				B6DDD156286603A600DADB71 /* UIView+Extensions.swift in Sources */,
-				B6DDD11E2865D7F300DADB71 /* ViewController.swift in Sources */,
+				B6DDD1802869355800DADB71 /* BaseViewController.swift in Sources */,
 				B6DDD167286688AC00DADB71 /* Encodable+Decodable.swift in Sources */,
 				B6DDD16B286695A100DADB71 /* Product.swift in Sources */,
+				B6DDD18A28693EEF00DADB71 /* TableViewCell.swift in Sources */,
 				B6DDD11A2865D7F300DADB71 /* AppDelegate.swift in Sources */,
+				B6DDD18E28697ACD00DADB71 /* DetailsViewController.swift in Sources */,
 				B6DDD16D286695B800DADB71 /* Spotlight.swift in Sources */,
-				B6DDD14D2865EFBE00DADB71 /* CollectionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +323,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6DDD1312865D7F900DADB71 /* DigioTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,8 +330,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6DDD13B2865D7F900DADB71 /* DigioTestUITests.swift in Sources */,
-				B6DDD13D2865D7F900DADB71 /* DigioTestUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B6DDD11F2865D7F300DADB71 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B6DDD1202865D7F300DADB71 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B6DDD1242865D7F900DADB71 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -510,7 +486,6 @@
 				INFOPLIST_FILE = DigioTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -539,7 +514,6 @@
 				INFOPLIST_FILE = DigioTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
