@@ -15,7 +15,7 @@ enum CollectionType {
 
 class TableViewCell: UITableViewCell {
 
-    let collectionView: UICollectionView = {
+    lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
         let collection = UICollectionView(frame: CGRect(x: 0, y: 0, width: 200, height: 200), collectionViewLayout: layout)
@@ -26,7 +26,7 @@ class TableViewCell: UITableViewCell {
         return collection
     }()
     
-    let icon:UIImageView = {
+    lazy var icon:UIImageView = {
         let img = UIImageView()
         img.contentMode = .scaleAspectFill
         img.translatesAutoresizingMaskIntoConstraints = false
@@ -35,7 +35,7 @@ class TableViewCell: UITableViewCell {
         return img
     }()
     
-    let label: UILabel = {
+    lazy var label: UILabel = {
         let lbl = UILabel()
         lbl.translatesAutoresizingMaskIntoConstraints = false
         return lbl

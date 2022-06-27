@@ -9,7 +9,7 @@ import UIKit
 
 class BaseViewController: UIViewController {
 
-    let tableView: UITableView = {
+    lazy var tableView: UITableView = {
         let table = UITableView()
         table.register(TableViewCell.self, forCellReuseIdentifier: TableViewCell.nibName)
         table.allowsSelection = false
